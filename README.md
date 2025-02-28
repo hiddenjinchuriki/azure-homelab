@@ -15,12 +15,12 @@ Automation: IaC with Terraform
 
 File Structure
 azure-homelab/
-|-- .github/workflows/terraform.yml   # GitHub Actions for CI/CD
-|-- main.tf                           # Main Terraform configuration
-|-- variables.tf                      # Variables for Terraform
-|-- outputs.tf                        # Terraform output values
-|-- .gitignore                        # Ignore Terraform state files
-|-- READ.md                           # Project documentation
+- .github/workflows/terraform.yml   # GitHub Actions for CI/CD
+- main.tf                           # Main Terraform configuration
+- variables.tf                      # Variables for Terraform
+- outputs.tf                        # Terraform output values
+- .gitignore                        # Ignore Terraform state files
+- READ.md                           # Project documentation
 
 Automation & CI/CD
 This project includes a GitHub Actions pipeline to automate Terraform deployments
